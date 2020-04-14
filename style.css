@@ -1,0 +1,778 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a:link {
+  text-decoration: none;
+}
+body {
+  font-weight: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  text-transform: uppercase;
+  margin-top: 80px;
+  height: 36px;
+  line-height: 42px;
+  font-weight: normal;
+  color: #292f36;
+  padding-left: 14px;
+  border-left: 10px solid #e1e6ea;
+}
+li {
+  list-style-type: none;
+}
+p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #b0b1b3;
+  font-weight: normal;
+}
+a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #b0b1b3;
+  font-weight: normal;
+}
+.container {
+  border: 1px solid transparent;
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+}
+/* navigation */
+
+header {
+  background-color: #1d2126;
+}
+header .container div {
+  height: 81px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header ul {
+  display: inline-block;
+}
+header li {
+  display: inline-block;
+  height: 100%;
+  line-height: 81px;
+}
+header li a {
+  text-transform: uppercase;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  color: #b0b1b3;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+.active {
+  border-color: #23b7a4;
+  color: #23b7a4;
+}
+header .container div ul li a:hover {
+  border: 2px solid #5b6168;
+}
+
+/* banner */
+#banner {
+  height: 664px;
+  background-image: url(image/theme.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #3a454d;
+}
+#banner > .container {
+  position: relative;
+  border: 2px so red;
+}
+
+#banner > .container > h2 {
+  margin-top: 220px;
+  border: none;
+  color: white;
+  padding-left: 0;
+}
+#banner > .container > p {
+  color: white;
+  margin-top: 25px;
+  width: 654px;
+}
+#banner > .container > div {
+  display: block;
+}
+#banner > .container > div > a {
+  display: inline-block;
+  color: white;
+  width: 124px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 45px;
+  margin-top: 35px;
+}
+#banner > .container > div > a:hover {
+  background-color: #23b7a4;
+  border: 2px solid #23b7a4;
+}
+#banner > .container > ul {
+  position: absolute;
+  display: block;
+  margin-top: 200px;
+  right: 0;
+  width: 124px;
+  height: 45px;
+  line-height: 42px;
+}
+#banner > .container > ul > li {
+  display: inline-block;
+}
+#banner > .container > ul > li > a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  text-indent: -10000000px;
+}
+#banner > .container > ul > li > a:hover,
+#banner > .container .active2 {
+  background-color: white;
+}
+/* about */
+#about > .container > div > div {
+  margin-top: 60px;
+}
+#about > .container > div {
+  display: flex;
+  justify-content: space-between;
+}
+#about > .container > div > div {
+  max-width: 55%;
+}
+#about > .container > div > ol {
+  max-width: 40%;
+}
+#about > .container > div > div > p:nth-child(2) {
+  margin-top: 30px;
+}
+#about > .container > div > div > ul {
+  display: inline-block;
+}
+#about > .container > div > div > ul > li {
+  display: inline-block;
+}
+#about > .container > div > div > ul > li > a {
+  margin-top: 48px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #d0d5d9;
+  text-indent: -10000000px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#about > .container > div > div > ul > li > a:hover {
+  background-color: #c8cdd0;
+}
+#about > .container > div > div > ul > li:nth-child(1) > a {
+  background-image: url(image/logo/fb.png);
+}
+#about > .container > div > div > ul > li:nth-child(2) > a {
+  background-image: url(image/logo/twifter.png);
+}
+#about > .container > div > div > ul > li:nth-child(3) > a {
+  background-image: url(image/logo/google.png);
+}
+#about > .container > div > div > ul > li:nth-child(4) > a {
+  background-image: url(image/logo/word.png);
+}
+#about > .container > div > div > ul > li:nth-child(5) > a {
+  background-image: url(image/logo/Be.png);
+}
+#about > .container ol {
+  margin-top: 60px;
+  width: 100%;
+  counter-reset: section;
+}
+#about > .container ol > li {
+  list-style-type: none;
+  margin-bottom: 30px;
+  width: 100%;
+}
+#about > .container h4 {
+  font-weight: normal;
+  padding-left: 10px;
+  display: inline-block;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 42px;
+  color: #8d8f92;
+}
+#about > .container ol > li > p {
+  top: 31px;
+  margin-left: 67px;
+}
+span {
+  font-weight: bolder !important;
+}
+#about > .container ol > li::before {
+  counter-increment: section;
+  content: "0" counter(section);
+  display: inline-block;
+  background-color: #23b7a4;
+  color: white;
+  width: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  height: 50px;
+}
+/* team  */
+#team.container > div {
+  margin-top: 60px;
+}
+#team.container > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#team.container > div img {
+  display: block;
+  width: 100%;
+}
+#team.container > div > div > div {
+  background-color: #e1e6ea;
+  width: 100%;
+  padding-left: 20px;
+}
+#team.container h3 {
+  font-weight: normal;
+  padding-top: 10px;
+  font-size: 16px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #292f36;
+}
+#team.container > div > div > div p {
+  padding-bottom: 15px;
+}
+#team.container > div > div ul {
+  display: inline-block;
+}
+#team.container > div > div ul li {
+  margin-left: 1px;
+  display: inline-block;
+}
+#team.container ul li a {
+  display: none;
+  width: 50px;
+  height: 50px;
+  background-color: #3a454d;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-indent: -10000000px;
+}
+
+#team.container ul > li:nth-child(1) > a {
+  background-image: url(image/logo/fb.png);
+}
+#team.container ul > li:nth-child(2) > a {
+  background-image: url(image/logo/twifter.png);
+}
+#team.container ul > li:nth-child(3) > a {
+  background-image: url(image/logo/in.png);
+}
+#team.container > div > div {
+  position: relative;
+}
+#team.container > div > div ul {
+  display: block;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 80px);
+}
+#team.container > div > div:hover ul > li > a {
+  display: inline-block;
+}
+#team.container > div > div:hover div {
+  background-color: #3a454d;
+}
+#team.container > div > div:hover div h3 {
+  color: white;
+}
+#team.container > div > div:hover img {
+  opacity: 0.6;
+}
+
+/* work  */
+#work {
+  background-color: #3a454d;
+}
+#work > .container h2 {
+  display: inline-block;
+  color: white;
+  font-weight: normal;
+}
+#work .container > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+#work > .container > div > div img {
+  max-width: 100%;
+  display: block;
+}
+#work > .container > div > div {
+  position: relative;
+}
+#work .container > div > div {
+  margin-bottom: 30px;
+}
+#work .container > div > div > p {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background-color: #292f36;
+  color: white;
+  font-size: 18px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-align: center;
+  left: 0;
+  bottom: 0px;
+}
+#work > .container > div > div:hover a::after {
+  display: inline-block;
+  content: " ";
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(image/logo/plus.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#work > .container > div > div:hover p {
+  display: inline-block;
+}
+#work > .container > div:hover img {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#work > .container button {
+  display: inline-block;
+  width: 152px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 28px;
+  text-align: center;
+  background-color: #292f36;
+  color: white;
+  margin-left: calc(50% - 76px);
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+/* setting  */
+#setting.container > div {
+  margin-top: 80px;
+}
+#setting.container > div > ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#setting.container > div > ul > li {
+  display: inline-block;
+  width: 262px;
+  height: 226px;
+  margin-bottom: 60px;
+}
+#setting.container > div > ul > li h5 {
+  font-size: 17px;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+#setting.container > div > ul > li p {
+  text-align: center;
+  margin-top: 20px;
+}
+#setting.container > div > ul > li h5::before {
+  content: " ";
+  display: block;
+  margin-bottom: 30px;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 60px;
+  margin-left: calc(50% - 30px);
+  height: 60px;
+}
+#setting.container > div > ul > li:nth-child(1) h5::before {
+  background-image: url(image/logo/setting.png);
+}
+#setting.container > div > ul > li:nth-child(2) h5::before {
+  background-image: url(image/logo/pencil.png);
+}
+#setting.container > div > ul > li:nth-child(3) h5::before {
+  background-image: url(image/logo/mobile.png);
+}
+
+#setting.container > div > ul > li:nth-child(4) h5::before {
+  background-image: url(image/logo/clock.png);
+}
+
+/* feature  */
+#feature {
+  background-color: #3a454d;
+}
+
+#feature .container ul {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#feature .container h2 {
+  display: inline-block;
+  color: white;
+}
+#feature .container ul li {
+  display: inline-block;
+  width: calc((100% - 60px) / 3);
+}
+#feature .container ul li a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 42px;
+  color: #ffffff;
+}
+#feature .container ul li img {
+  width: 100%;
+  display: block;
+  margin-bottom: 48px;
+}
+#feature > .container > ul > li > p {
+  display: inline-block;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+
+/* contact  */
+#contact {
+  background-image: url(image/map.png);
+  background-position: 0 160px;
+  background-repeat: no-repeat;
+}
+#contact > .container {
+  position: relative;
+}
+#contact > .container > div {
+  display: inline-block;
+  margin-top: 460px;
+  margin-left: 0;
+  width: 48%;
+}
+#contact > .container > div h4 {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #292f36;
+}
+#contact > .container > div {
+  padding-bottom: 120px;
+}
+#contact > .container > form {
+  display: inline-block;
+  top: 370px;
+  right: 0;
+  position: absolute;
+  background-color: white;
+}
+
+form div div div input {
+  height: 45px;
+  display: block;
+  width: 240px;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  background-color: #eaeef1;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+form div div label {
+  margin-bottom: 5px;
+  margin-top: 22px;
+  padding-left: 5px;
+  display: block;
+  width: 240px;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+form > div > div {
+  display: block;
+  margin: 0 30px;
+}
+form div div div {
+  display: inline-block;
+}
+form > div > div:nth-child(2) > textarea {
+  display: block;
+  width: 100%;
+  padding-left: 10px;
+  background-color: #eaeef1;
+  border: none;
+  outline: none;
+}
+form > div > a {
+  text-align: center;
+  display: inline-block;
+  margin-left: 30px;
+  width: 150px;
+  height: 44px;
+  background-color: #23b7a4;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 44px;
+  margin-top: 30px;
+}
+form > div > a:hover {
+  opacity: 0.6;
+}
+/* foooter  */
+footer {
+  background-color: #3a454d;
+}
+footer > .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 95px;
+}
+footer > .container > ul {
+  display: flex;
+  width: 155px;
+  justify-content: space-between;
+  margin-right: 0px;
+}
+footer > .container > ul > li {
+  display: inline-block;
+}
+footer > .container > ul > li > a {
+  display: inline-block;
+  text-indent: -10000000px;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  border: 2px solid transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+footer > .container > ul > li:nth-child(1) > a {
+  background-image: url(image/logo/twifter.png);
+}
+footer > .container > ul > li:nth-child(2) > a {
+  background-image: url(image/logo/fb.png);
+}
+footer > .container > ul > li:nth-child(3) > a {
+  background-image: url(image/logo/sky.png);
+}
+footer > .container > ul > li:nth-child(4) > a {
+  background-image: url(image/logo/Be.png);
+}
+footer > .container > ul > li:nth-child(5) > a {
+  background-image: url(image/logo/in.png);
+}
+footer > .container > ul > li > a:hover {
+  border: 2px solid #23b7a4;
+}
+
+@media screen and (max-width: 1200px) {
+  #work > .container > div > div {
+    display: inline-block;
+    width: calc(50% - 20px);
+  }
+  #work > .container > div > div > a > img {
+    display: block;
+    width: 100%;
+  }
+
+  #setting.container > div > ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  #setting.container > div > ul > li {
+    width: calc(50% - 40px);
+  }
+  #setting.container > div > ul > li > p {
+    display: block;
+    width: 100%;
+  }
+  form {
+    display: block;
+    width: 100%;
+  }
+
+  form > div > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+  }
+  form > div > div:nth-child(1) > div {
+    width: calc(50% - 10px);
+  }
+  form > div > div:nth-child(1) > div > input {
+    width: 100%;
+  }
+  #contact > .container > div {
+    display: inline-block;
+    margin-top: 626px;
+    margin-left: 0;
+    width: 48%;
+  }
+
+  form > div > a {
+    text-align: center;
+    display: inline-block;
+    margin-left: calc(50% - 75px);
+  }
+  #contact > .container > div {
+    display: inline-block;
+    margin-top: 626px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  #contact > .container > div h4 {
+    text-align: center;
+    display: block;
+  }
+  #contact > div > div > div {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #about > .container > div > ol {
+    max-width: 54%;
+  }
+  #about > .container > div > div {
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .container div {
+    display: block;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #team.container > div > div {
+    width: calc(25% - 10px);
+  }
+  #team.container > div > div > div p {
+    padding-bottom: 15px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #b0b1b3;
+    font-weight: normal;
+  }
+  #feature .container ul li {
+    display: inline-block;
+    width: 100%;
+  }
+  #feature .container ul li a {
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    line-height: 42px;
+    color: #ffffff;
+  }
+  #feature > .container > ul > li > p {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  #feature .container ul li img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  #about > .container > div {
+    display: block;
+  }
+  #about > .container > div > div {
+    display: block;
+  }
+  #about > .container > div > div {
+    width: 100%;
+    max-width: 100%;
+  }
+  #about > .container > div > ol {
+    display: block;
+    max-width: 100%;
+  }
+  #work .container > div > div > p {
+    display: inline-block;
+  }
+  #work > .container > div > div > a::after {
+    display: inline-block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url(image/logo/plus.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  #team.container > div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #team.container > div > div {
+    display: inline-block;
+    position: relative;
+    width: calc(50% - 5px);
+  }
+  #team.container ul li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  #team.container > div > div>ul {
+    display: block;
+    position: absolute;
+    bottom: 16px;
+    top: auto;
+    left: auto;
+    right: 0;
+}
+
+}
