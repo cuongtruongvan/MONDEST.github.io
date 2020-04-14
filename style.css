@@ -147,6 +147,9 @@ header .container div ul li a:hover {
   background-color: white;
 }
 /* about */
+#about{
+  border: 2px solid #dde1e4;
+}
 #about > .container > div > div {
   margin-top: 60px;
 }
@@ -313,6 +316,9 @@ span {
 }
 
 /* work  */
+div#work {
+  margin-top: 100px;
+}
 #work {
   background-color: #3a454d;
 }
