@@ -61,9 +61,7 @@ header li {
   height: 100%;
   line-height: 81px;
 }
-#team {
-    padding: 84px 0 98px 0;
-}
+
 header li a {
   text-transform: uppercase;
   display: inline-block;
