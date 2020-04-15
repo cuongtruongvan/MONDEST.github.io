@@ -241,9 +241,6 @@ span {
 }
 /* team  */
 #team.container > div {
-  margin-top: 60px;
-}
-#team.container > div {
   display: flex;
   justify-content: space-between;
 }
